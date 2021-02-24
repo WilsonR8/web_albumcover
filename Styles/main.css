@@ -1,0 +1,64 @@
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+.album {
+    padding: 20px;
+    padding-top: 0px;
+    width:50%;
+    background: linear-gradient(150deg, rgb(189, 63, 10) 0%, rgb(207, 141, 113) 100%);
+    border-radius: 10px;
+}
+
+.album_cont {
+    border: 1px dashed whitesmoke;
+    border-left: none;
+    border-right: none;
+    display: flex;  
+    flex-direction: row;
+}
+
+.album_desc{
+    max-width: auto;
+    height: auto;
+    font-size: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.img_cover{
+    max-width: auto;
+    height: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.img_btn{
+    max-width: 20%;
+padding-right: 5px;
+    height: auto;
+    border-radius: 8%; 
+}
+
+.album_bot {
+    background-color: #e62e2e;
+    display: flex;
+    color: white;
+    max-width: 16rem;
+    padding: 5px;
+    border-radius: 5px; 
+    font-family:'Courier New', Courier, monospace;
+    
+}
